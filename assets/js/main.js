@@ -254,16 +254,54 @@ const developContent = `
     </div>
 `;
 
+// let isDragging = false;
+
+// const dragging = (e) => {
+//     if (!isDragging) return;
+//     mobileNav.scrollLeft -= e.movementX;
+// }
+
+// mobileNav.addEventListener("mousedown", () => isDragging = true);
+// mobileNav.addEventListener("mousemove", dragging)
+// document.addEventListener("mouseup", () => isDragging = false);
+// mobileNav.addEventListener("touchstart", () => (isDragging = true));
+// mobileNav.addEventListener("touchmove", dragging);
+// document.addEventListener("touchend", () => (isDragging = false));
+
 let isDragging = false;
+let startX;
 
 const dragging = (e) => {
-    if (!isDragging) return;
-    mobileNav.scrollLeft -= e.movementX;
-}
+  if (!isDragging) return;
 
-mobileNav.addEventListener("mousedown", () => isDragging = true);
-mobileNav.addEventListener("mousemove", dragging)
-document.addEventListener("mouseup", () => isDragging = false);
+  let movementX;
+  if (e.type === "mousemove") {
+    movementX = e.movementX;
+  } else if (e.type === "touchmove") {
+    const touch = e.touches[0];
+    movementX = startX - touch.clientX;
+    startX = touch.clientX;
+  }
+
+
+  mobileNav.scrollLeft += movementX;
+};
+
+
+mobileNav.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.pageX;
+});
+mobileNav.addEventListener("mousemove", dragging);
+document.addEventListener("mouseup", () => (isDragging = false));
+
+// Eventos para toque
+mobileNav.addEventListener("touchstart", (e) => {
+  isDragging = true;
+  startX = e.touches[0].clientX; // Posición inicial del toque
+});
+mobileNav.addEventListener("touchmove", dragging);
+document.addEventListener("touchend", () => (isDragging = false));
 
 
 const initializeAccordion = () => {
