@@ -174,12 +174,14 @@ html {
 }
 
 .faq__question-title {
+    width: 80%;
     font-size: 1.25rem;
     font-weight: 600;
 }
 
 .faq__question.open .faq__question-title {
     color: var(--soft-mist);
+    width: 80%;
 }
 
 .faq__toggle-icon {
