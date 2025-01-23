@@ -6,7 +6,7 @@ Este proyecto es una página de preguntas frecuentes interactiva y responsive, d
 
 ![Captura del Proyecto](./resources/desktop-preview.png)
 
-Puedes ver la versión demo en vivo aquí: [FAQ Page](https://ibrahim-003.github.io/FAQ-Page/)
+Puedes ver la versión demo en vivo aquí: [FAQ Page](https://faq-page-pi.vercel.app/)
 
 ## Características
 
