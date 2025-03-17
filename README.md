@@ -4,7 +4,7 @@ Este proyecto es una página de preguntas frecuentes interactiva y responsive, d
 
 ## Vista Previa
 
-![Captura del Proyecto](./resources/desktop-preview.png)
+![Captura del Proyecto](./src/assets/images/desktop-preview.webp)
 
 Puedes ver la versión demo en vivo aquí: [FAQ Page](https://faq-page-pi.vercel.app/)
 

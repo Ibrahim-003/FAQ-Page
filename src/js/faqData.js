@@ -3,7 +3,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">How does it work?</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
                         </button>
                     </header>
                     <p class="faq__answer">
@@ -15,7 +15,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">Which platform you support?</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
                         </button>
                     </header>
                     <p class="faq__answer active">
@@ -29,7 +29,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">How do I invite my teammates?</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
                         </button>
                     </header>
                     <p class="faq__answer active">
@@ -42,7 +42,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">Do you have annual plan?</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
                         </button>
                     </header>
                     <p class="faq__answer">
@@ -56,7 +56,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">How to create new workspace</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
                         </button>
                     </header>
                     <p class="faq__answer">
@@ -70,7 +70,7 @@ export const overviewContent = `
                     <header class="faq__question-header">
                         <h4 class="faq__question-title">How do I set roles & permissions?</h4>
                         <button class="faq__toggle-button">
-                            <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                            <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
                         </button>
                     </header>
                     <p class="faq__answer">
@@ -78,15 +78,14 @@ export const overviewContent = `
                         delectus aspernatur voluptas omnis necessitatibus, alias id illum. Cum iure consequuntur ad odit repellat sunt
                         illum.
                     </p>
-</div>`
-;
+</div>`;
 
 export const desingContent = `
     <div class="faq__question">
         <header class="faq__question-header">
             <h4 class="faq__question-title">What is a Design System?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -98,7 +97,7 @@ export const desingContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">Why is a Design System important?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -110,7 +109,7 @@ export const desingContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What does a Design System include?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -122,7 +121,7 @@ export const desingContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">Who uses a Design System?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -136,7 +135,7 @@ export const brandContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What is Brand Design?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -148,7 +147,7 @@ export const brandContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What does Brand Design include?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -160,7 +159,7 @@ export const brandContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">Why is Brand Design important?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -172,7 +171,7 @@ export const brandContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">Who is responsible for Brand Design?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -184,7 +183,7 @@ export const brandContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">How is good Brand Design created?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -198,7 +197,7 @@ export const developContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What is website development?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -210,7 +209,7 @@ export const developContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What skills are needed for website development?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -222,7 +221,7 @@ export const developContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">How long does it take to develop a website?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon up">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon up">
             </button>
         </header>
         <p class="faq__answer active">
@@ -234,7 +233,7 @@ export const developContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">What tools are commonly used in website development?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
@@ -246,7 +245,7 @@ export const developContent = `
         <header class="faq__question-header">
             <h4 class="faq__question-title">How do you ensure a website is responsive?</h4>
             <button class="faq__toggle-button">
-                <img src="./resources/Expand_down.svg" alt="#" class="faq__toggle-icon">
+                <img src="./src/assets/images/Expand_down.svg" alt="Expand icon" class="faq__toggle-icon">
             </button>
         </header>
         <p class="faq__answer">
